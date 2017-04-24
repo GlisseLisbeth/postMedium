@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+.header-left{
+  height: 50px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+.medium{
+  display: inline-block;
+}
+
+.social{
+  display: inline-block;
+  letter-spacing: 0.4em;
+  margin: 0px 15px 0px 15px;
+  position: absolute;
+  top: 18px;
+  color: rgba(0,0,0,0.50);
+}
+.follow{
+  background: white;
+  color: #1C9963;
+  border-radius: 15px;
+  border: solid 1.5px #1C9963;
+  padding: 2px 8px;
+}
+.social span{
+  font-size: 120%;
+}
+
+.separator{
+  display: inline-block;
+  height: 30px;
+  background-color: grey;
+  width: 1px;
+  margin: 0px 10px 0px 10px;
+}
+
+.content{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 350px;
+  margin-top: 3%;
+  height: 500px;;
+}
+.divPost{
+  display: inline-block;
+  margin-right: 2%;
+}
+.divPost img{
+  border-radius: 100%;
+}
+.meta-post{
+  display: inline-block;
+}
+.meta-name-post{
+  display: inline-block;
+  margin-bottom: 1.5%;
+  display: auto;
+}
+.meta-name-post a{
+  text-decoration: none;
+  color: rgba(0,0,0,.8);
+  font-family: 'Roboto', sans-serif;
+}
+
+.job-post{
+    color: rgba(0,0,0,.44);
+    font-size: 14px;
+}
+.job-post p{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.article-medium{
+  margin-top: 3%;
+}
+.article-medium h1{
+  font-family: 'Asar', serif;
+  font-size: 2.5em;
+
+}
+.article-medium p{
+  font-family: 'EB Garamond', serif;
+  color: grey;
+  font-size: 24px;
+  text-align: justify;
+}
+
+footer{
+  position: absolute;
+  height: 70px;
+  width: 60%;
+  margin-left: 18%;
+  margin-right: 18%;
+  bottom: 0;
+}
+.footer-medium{
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+}
+.footer-medium button{
+  position: absolute;
+  right: 0px;
+  background: #088A4B;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+  border: none;
+}
