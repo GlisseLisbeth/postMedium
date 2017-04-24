@@ -20,13 +20,15 @@
   position: absolute;
   top: 18px;
   color: rgba(0,0,0,0.50);
+  padding: 5px;
 }
 .follow{
   background: white;
   color: #1C9963;
   border-radius: 15px;
   border: solid 1.5px #1C9963;
-  padding: 2px 8px;
+  padding: 5px 8px;
+  margin: 0 5px 0 5px;
 }
 .social span{
   font-size: 120%;
@@ -46,6 +48,10 @@
   margin-right: 350px;
   margin-top: 3%;
   height: 500px;;
+}
+.medium{
+  position: absolute;
+  left: 100px;
 }
 .divPost{
   display: inline-block;
@@ -93,11 +99,9 @@
 }
 
 footer{
-  position: absolute;
+  position: fixed;
   height: 70px;
   width: 60%;
-  margin-left: 18%;
-  margin-right: 18%;
   bottom: 0;
 }
 .footer-medium{
@@ -113,4 +117,8 @@ footer{
   padding: 5px;
   color: white;
   border: none;
+}
+
+.icon-twitter-square{
+  margin: 0 10px 0 10px;
 }
